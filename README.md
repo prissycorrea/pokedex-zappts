@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<img src="https://raw.githubusercontent.com/prissycorrea/pokedex-zappts/fb90335df5835526343f690a506c08deff3165d6/project-images/logo.svg">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokedex
+Single Page Application desenvolvida em React JS com objetivo de criar uma Pokedex utilizando a api [PokeApi](https://pokeapi.co/).
 
-## Available Scripts
+## Objetivo do projeto
+O presente projeto foi desenvolvido como teste prático para um processo seletivo da empresa [Zappts](https://www.zappts.com.br/). A proposta era criar uma página da web utilizando React JS, SASS e uma api de Pokémons para criar uma Pokedex seguindo um layout apresentado no Figma.
 
-In the project directory, you can run:
+## Status do projeto
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+
+## Preview do projeto
+<img src="https://github.com/prissycorrea/pokedex-zappts/blob/main/readme-images/pc-home.PNG?raw=true" width="500">
+<img src="https://github.com/prissycorrea/pokedex-zappts/blob/main/readme-images/pc-screen-pokedex.PNG?raw=true" width="500">
+<img src="https://raw.githubusercontent.com/prissycorrea/pokedex-zappts/fb90335df5835526343f690a506c08deff3165d6/readme-images/mockup-pokedex-mobile.svg" width="550">
+
+## 📁 Acesso ao projeto
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/prissycorrea/pokedex-zappts).
+
+## ✔ Tecnologias utilizadas
+- ``React JS``
+- ``CSS``
+- ``PokeApi``
+
+## 📦 Dependências
+- ``Node JS 14 ou superior``
+- ``npm 5.6 ou superior``
+
+## Sobre o processo de desenvolvimento do projeto
+
+
+## 🔨 Descrição/Funcionalidades do projeto
+- `Página inicial/home`: Frase convidando o usuário a escolher um Pokémon, imagem do Pikachu e botão de acesso à Pokedex;
+
+- `Página Pokedex`: 
+  - `Pesquisa`: Barra de pesquisa funcional, que retorna o card do Pokémon digitado ou uma mensagem de Pokémon inexistente caso o nome digitado não exista na api;
+  - `Filtro por tipo, ataque ou defesa`: :construction: em construção :construction:
+  - `Cards dos Pokemons`: cada página contém 18 cards de diferentes Pokémons, contendo id, nome, tipo, e imagem. Estão organizados em ordem crescente de acordo com seu id;
+  - `Botão voltar/avançar página`: dois botões com setas intuitivas para esquerda (voltar) e para direita (avançar);
+  - `Página atual`: entre os botões voltar e avançar, há um contador identificando em que página da Pokedex o usuário está.
+
+## Funcionalidades a serem implantadas
+- `Mais informações do Pokemon`: Ao clicar no card do Pokémon, um modal se abrirá com outros dados do Pokémon, como tamanho, peso, poder, ataque, etc;
+- `Página de contato`: Ao clicar em 'contato', um modal com formulário de contato se abrirá, contendo campo para nome, e-mail, assunto e mensagem;
+- `Mudança de cor do card`: Cada tipo de Pokémon terá uma cor de fundo diferente no card (ex.: tipo fogo terá fundo laranja, enquanto o tipo água terá o fundo azul);
+- `Link do menu ativo`: ao clicar em um link da barra de menu, o mesmo ficará com peso de fonte maior e com sublinhado abaixo, identificando em que página o usuário está.
+
+## 🚀 Começando
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+Este projeto foi desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
+
+## 🔧 Instalação das dependências
+### Node JS/npm
+Caso utilize sistema operacional Windows, você pode baixar o Node JS através de seu site oficial [clicando aqui](https://nodejs.org/en/)
+ou, se utiliza sistema operacional Linux ou prefira instalar via gerenciador de pacotes, o site oficial do Node JS tem o passo-a-passo, acesse [clicando aqui](https://nodejs.org/pt-br/download/package-manager/) 
+
+
+Após instalar as dependências, abra o terminal e, no diretório do projeto, execute:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000/home](http://localhost:3000/home) to view it in your browser.
+Rode o arquivo no modo desenvolvimento:
+Caso utilize a porta padrão, abra [http://localhost:3000/home](http://localhost:3000/home) para ver o projeto no seu navegador, ou siga o endereço utilizado da porta utilizada seguido de `/home` ao final da url.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖖 Pessoa desenvolvedora do projeto
+Priscilla Correa
 
-### `npm test`
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width=30px>](https://www.linkedin.com/in/priscilla-correa/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
