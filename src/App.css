@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Karla:wght@400;700&family=Open+Sans:wght@400;700&family=Source+Sans+Pro&display=swap');
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*texto para pokemon nao encontrado*/
+.not-found-text {
+  font-size: 25px;
+}
+
+/*conf geral*/
+.App {
+  text-align: center;
+}
