@@ -71,6 +71,16 @@
     .searchbar-text {
         display: none;
     }
+
+    .dropdown-type-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dropdown-attack {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
 
 
@@ -147,5 +157,19 @@
     
     .searchbar-text {
         display: none;
+    }
+
+    .dropdown-type-container {
+        flex-direction: column;
+    }
+    
+    .dropdown-type-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dropdown-attack {
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 }
