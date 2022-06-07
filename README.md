@@ -26,8 +26,11 @@ Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/pri
 - ``Node JS 14 ou superior``
 - ``npm 5.6 ou superior``
 
-## Sobre o processo de desenvolvimento do projeto
+## 💭 Principais desafios encontrados/ainda não concluídos:
 
+
+## 🧯 Método dos testes realizados
+Os testes realizados foram realizados através do comando 'console.log' para verificar a resposta da API, bem como a própria resposta da interface gráfica no navegador para os componentes gráficos e clicáveis.
 
 ## 🔨 Descrição/Funcionalidades do projeto
 - `Página inicial/home`: Frase convidando o usuário a escolher um Pokémon, imagem do Pikachu e botão de acesso à Pokedex;
