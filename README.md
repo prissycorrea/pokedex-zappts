@@ -58,7 +58,7 @@ Caso utilize sistema operacional Windows, você pode baixar o Node JS através d
 ou, se utiliza sistema operacional Linux ou prefira instalar via gerenciador de pacotes, o site oficial do Node JS tem o passo-a-passo, acesse [clicando aqui](https://nodejs.org/pt-br/download/package-manager/) 
 
 
-Após instalar as dependências, abra o terminal e, no diretório do projeto, execute:
+Após instalar as dependências, clone o repositório do github, abra o terminal e, no diretório do projeto, execute:
 
 ### `npm start`
 
