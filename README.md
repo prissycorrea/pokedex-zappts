@@ -33,14 +33,14 @@ Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/pri
 Os testes realizados foram realizados através do comando 'console.log' para verificar a resposta da API, bem como a própria resposta da interface gráfica no navegador para os componentes gráficos e clicáveis.
 
 ## 🔨 Descrição/Funcionalidades do projeto
-- `Página inicial/home`: Frase convidando o usuário a escolher um Pokémon, imagem do Pikachu e botão de acesso à Pokedex;
+-  [x] `Página inicial/home`: Frase convidando o usuário a escolher um Pokémon, imagem do Pikachu e botão de acesso à Pokedex;
 
 - `Página Pokedex`: 
-  - `Pesquisa`: Barra de pesquisa funcional, que retorna o card do Pokémon digitado ou uma mensagem de Pokémon inexistente caso o nome digitado não exista na api;
-  - `Filtro por tipo, ataque ou defesa`: :construction: em construção :construction:
-  - `Cards dos Pokemons`: cada página contém 18 cards de diferentes Pokémons, contendo id, nome, tipo, e imagem. Estão organizados em ordem crescente de acordo com seu id;
-  - `Botão voltar/avançar página`: dois botões com setas intuitivas para esquerda (voltar) e para direita (avançar);
-  - `Página atual`: entre os botões voltar e avançar, há um contador identificando em que página da Pokedex o usuário está.
+  - [x] `Pesquisa`: Barra de pesquisa funcional, que retorna o card do Pokémon digitado ou uma mensagem de Pokémon inexistente caso o nome digitado não exista na api;
+  - [ ] `Filtro por tipo, ataque ou defesa`: :construction: em construção :construction:
+  - [x] `Cards dos Pokemons`: cada página contém 18 cards de diferentes Pokémons, contendo id, nome, tipo, e imagem. Estão organizados em ordem crescente de acordo com seu id;
+  - [x] `Botão voltar/avançar página`: dois botões com setas intuitivas para esquerda (voltar) e para direita (avançar);
+  - [x] `Página atual`: entre os botões voltar e avançar, há um contador identificando em que página da Pokedex o usuário está.
 
 ## Funcionalidades a serem implantadas
 - `Mais informações do Pokemon`: Ao clicar no card do Pokémon, um modal se abrirá com outros dados do Pokémon, como tamanho, peso, poder, ataque, etc;
