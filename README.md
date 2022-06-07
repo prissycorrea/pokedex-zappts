@@ -42,7 +42,7 @@ Os testes realizados foram realizados através do comando 'console.log' para ver
   - [x] `Botão voltar/avançar página`: dois botões com setas intuitivas para esquerda (voltar) e para direita (avançar);
   - [x] `Página atual`: entre os botões voltar e avançar, há um contador identificando em que página da Pokedex o usuário está.
 
-## Funcionalidades a serem implantadas
+## 🛠️ Funcionalidades a serem implantadas
 - `Mais informações do Pokemon`: Ao clicar no card do Pokémon, um modal se abrirá com outros dados do Pokémon, como tamanho, peso, poder, ataque, etc;
 - `Página de contato`: Ao clicar em 'contato', um modal com formulário de contato se abrirá, contendo campo para nome, e-mail, assunto e mensagem;
 - `Mudança de cor do card`: Cada tipo de Pokémon terá uma cor de fundo diferente no card (ex.: tipo fogo terá fundo laranja, enquanto o tipo água terá o fundo azul);
