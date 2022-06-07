@@ -3,11 +3,14 @@
 # Pokedex
 Single Page Application desenvolvida em React JS com objetivo de criar uma Pokedex utilizando a api [PokeApi](https://pokeapi.co/).
 
-## Objetivo do projeto
+## 📝 Objetivo do projeto
 O presente projeto foi desenvolvido como teste prático para um processo seletivo da empresa [Zappts](https://www.zappts.com.br/). A proposta era criar uma página da web utilizando React JS, SASS e uma api de Pokémons para criar uma Pokedex seguindo um layout apresentado no Figma.
 
 ## Status do projeto
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+
+## 💭 Principais desafios encontrados/ainda não concluídos:
+A realização desta tarefa foi um grande desafio devido a falta de tempo hábil para me dedicar a realização, visto que foi necessário estudar a ferramenta, já não tinha conhecimento em ReactJS até então. Também encontrei alguns problemas em utilizar o SASS junto ao ReactJS, bem como em implantar uma função que alterasse a cor de fundo dos cards de Pokémon e filtrasse os resultados de busca de acordo com o tipo de cada um. Contudo, infelizmente não foi possível entregar todos os passos do projeto.
 
 ## Preview do projeto
 <img src="https://github.com/prissycorrea/pokedex-zappts/blob/main/readme-images/pc-home.PNG?raw=true" width="500">
@@ -25,9 +28,6 @@ Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/pri
 ## 📦 Dependências
 - ``Node JS 14 ou superior``
 - ``npm 5.6 ou superior``
-
-## 💭 Principais desafios encontrados/ainda não concluídos:
-
 
 ## 🧯 Método dos testes realizados
 Os testes realizados foram realizados através do comando 'console.log' para verificar a resposta da API, bem como a própria resposta da interface gráfica no navegador para os componentes gráficos e clicáveis.
